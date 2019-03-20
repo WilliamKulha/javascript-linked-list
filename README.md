@@ -11,7 +11,7 @@ _Getting ready for my first super serious coding interview 😎, I realized that
 ### Use
 
 Import the linked list into the whatever other file you wanna use it in.\
-`import {LinkedList} from 'wherever/you/saved/this/file.js'`\  
+`import {LinkedList} from 'wherever/you/saved/this/file.js'`
 
 When you want to make a new LinkedList just use a good ol' new statement:\
 `const myCoolLinkedList = new LinkedList`;
@@ -21,28 +21,28 @@ When you want to make a new LinkedList just use a good ol' new statement:\
 So you've made a new linked list. That's awesome! But you know what would be even more awesome? If you add some stuff to it.\
 
 You can add to the end using the `.append()` method.\
-`myCoolLinkedList.append(WhatIWannaAppend);`\
+`myCoolLinkedList.append(WhatIWannaAppend);`
 
 Or to the beginning using the `.prepend()` method.\ 
-`myCoolLinkedList.prepend(WhatIWannaPrepend);`\
+`myCoolLinkedList.prepend(WhatIWannaPrepend);`
 
 If you wanna see if it worked, or if your list is still empty use the `.isEmpty()` method.\
-`myCoolLinkedList.isEmpty();` >>> Returns true if there's nothing there.\
+`myCoolLinkedList.isEmpty();` >>> Returns true if there's nothing there.
 
 If you wanna know how long your list is, just use the `.size()` method.\
-`myCoolLinkedList.size();`\
+`myCoolLinkedList.size();`
 
 If you wanna see if your list is holding a certain value, use the `.contains()` method.\
-`myCoolLinkedList.contains(thingThatMightBeInHere);`\
+`myCoolLinkedList.contains(thingThatMightBeInHere);`
 
 If you wanna take something out of the list, just use the `.remove()` method.\
-`myCoolLinkedList.remove(thingToRemove);`\
+`myCoolLinkedList.remove(thingToRemove);`
 
 Maybe you want to spin your list around. You can reverse your linked list with the `.reverse()` method.\
-`myCoolLinkedList.reverse();`\
+`myCoolLinkedList.reverse();`
 
 Everybody hates it when duplicates start sneaking up on them. Remove all of 'em from your linked list with the `.removeDuplicates()` method!\
-`myCoolLinkedList.removeDuplicates();` >>> Duplicates removed 😎\
+`myCoolLinkedList.removeDuplicates();` >>> Duplicates removed 😎
 
 Maybe you want to see which element is Kth from the end of the list. Well don't worry about that! Just use the `.findKToLast()` method.\
 `myCoolLinkedList.findKToLast(howManyFromTheEndWereTalkingHere);`
