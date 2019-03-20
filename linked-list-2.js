@@ -126,3 +126,4 @@ LinkedList.prototype.findKToLast = function(k) {
   return cur;
 }
 
+export default LinkedList();
