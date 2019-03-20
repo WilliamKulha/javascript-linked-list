@@ -18,7 +18,7 @@ When you want to make a new LinkedList just use a good ol' new statement:\
 
 ## Methods
 
-So you've made a new linked list. That's awesome! But you know what would be even more awesome? If you add some stuff to it.\
+So you've made a new linked list. That's awesome! But you know what would be even more awesome? If you add some stuff to it.
 
 You can add to the end using the `.append()` method.\
 `myCoolLinkedList.append(WhatIWannaAppend);`
